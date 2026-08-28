@@ -1,7 +1,7 @@
 --声明:当前脚本由我和ai共同制作，请勿用于非法用途。
 -- ============================================
--- Delta Internal Radar - 全图通用版 v2.0
--- 优化：全地图通用 NPC/玩家检测 + 性能优化 + 代码重构
+-- Internal Radar全图通用版 v2.0
+-- 全地图通用 NPC/玩家检测 运行微优化 
 -- ============================================
 
 local Players = game:GetService("Players")
@@ -970,7 +970,3 @@ _G.DisableDeltaRadar = function()
     ScreenGui:Destroy()
     print("[雷达] v2.0 已卸载")
 end
-
--- 打印配置信息
---print("[雷达] Delta Radar v2.0 全图通用版 已加载")
---print("[雷达] 配置: Range=" .. RadarConfig.Range .. " Zoom=" .. RadarConfig.ZoomLevel .. " Universal=" .. tostring(RadarConfig.UniversalScan))
